@@ -190,15 +190,12 @@ void rightButtonOnRelease(Button& b) {
 void rightButtonOnHold(Button& b) {
 
   // We dont start any management operations if a fill is going on in any of the lines
-
   if (rightState.state != 0 ) {
     return;
   }
 
   // We have detected a button hold
-
   rightState.state = 3;
-
 
 }
 
