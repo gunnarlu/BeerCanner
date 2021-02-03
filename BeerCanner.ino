@@ -336,7 +336,7 @@ void stateMachine (stateArtifact &state) {
       }
 
       if ( currentTime - state.previousTime > 3000) {
-        //We go no button click, so user did not want to set purge time.
+        //We got no button click, so user did not want to set purge time.
         state.state = 4;
         state.previousTime = currentTime;
       }
