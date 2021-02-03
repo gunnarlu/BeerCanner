@@ -403,7 +403,6 @@ void stateMachine (stateArtifact &state) {
       break;
 
     case 9:
-
       state.liquidFillerSensorValue = analogRead(state.sensorPin);
       digitalWrite(state.liquidPin, LOW);
       state.blueBlink.doubleBlinkState = 0;
